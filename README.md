@@ -1,187 +1,298 @@
-<!-- HEADER BANNER -->
-<div style="background: linear-gradient(135deg, #0176D3, #0b2240); padding: 30px; border-radius: 8px; border-left: 6px solid #00A1E0; margin-bottom: 30px; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif;">
-  <span style="background: rgba(0, 161, 224, 0.15); border: 1px solid rgba(0, 161, 224, 0.3); padding: 4px 12px; border-radius: 4px; font-size: 0.75rem; color: #00A1E0; text-transform: uppercase; font-weight: 600; letter-spacing: 1px;">Virtual Internship Project</span>
-  <h1 style="color: #FFFFFF; font-size: 2rem; margin: 12px 0 6px 0; font-weight: 700;">AI-Powered Lead Management & Security Infrastructure</h1>
-  <p style="color: #A0AEC0; font-size: 1rem; margin: 0 0 16px 0; max-width: 800px;">Developed as part of the Salesforce Certified Administrator with AI Agentforce Specialization Virtual Internship using Salesforce Developer Edition.</p>
-  <div style="color: #E2E8F0; font-size: 0.9rem;">
-    <span>Author: </span><span style="font-weight: 600; color: #00A1E0;">Ritika Upadhyay</span>
-  </div>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>AI-Powered Lead Management & Security Infrastructure</title>
+
+<style>
+body{
+    margin:0;
+    font-family:Arial, Helvetica, sans-serif;
+    background:#f4f7fb;
+    color:#333;
+}
+
+header{
+    background:#0176d3;
+    color:white;
+    padding:40px;
+    text-align:center;
+}
+
+header h1{
+    margin:0;
+    font-size:38px;
+}
+
+header p{
+    font-size:18px;
+}
+
+section{
+    width:85%;
+    margin:auto;
+    margin-top:30px;
+}
+
+.card{
+    background:white;
+    padding:20px;
+    margin-bottom:20px;
+    border-radius:12px;
+    box-shadow:0 5px 15px rgba(0,0,0,.1);
+}
+
+h2{
+    color:#0176d3;
+}
+
+ul li{
+    margin-bottom:8px;
+}
+
+table{
+    width:100%;
+    border-collapse:collapse;
+}
+
+table th,table td{
+    border:1px solid #ddd;
+    padding:12px;
+    text-align:left;
+}
+
+table th{
+    background:#0176d3;
+    color:white;
+}
+
+footer{
+    background:#0176d3;
+    color:white;
+    text-align:center;
+    padding:20px;
+    margin-top:40px;
+}
+</style>
+
+</head>
+
+<body>
+
+<header>
+
+<h1>🚀 AI-Powered Lead Management & Security Infrastructure</h1>
+
+<p>Salesforce Certified Administrator with AI Agentforce Specialization</p>
+
+<p>Virtual Internship Project</p>
+
+</header>
+
+<section>
+
+<div class="card">
+
+<h2>📌 Project Overview</h2>
+
+<p>
+
+This project was developed using Salesforce Developer Edition as part of the Salesforce Certified Administrator with AI Agentforce Specialization Virtual Internship.
+
+The project demonstrates Salesforce Administration concepts including Lead Management, User Administration, Security Configuration, Prompt Builder integration, and AI-powered Lead Summary generation.
+
+</p>
+
 </div>
 
-## Project Overview
+<div class="card">
 
-The objective of this project was to build a secure and AI-powered Lead Management System by customizing the Salesforce Lead object, configuring user access and security, implementing role-based permissions, and integrating Salesforce Prompt Builder to generate AI-powered Lead summaries.
+<h2>🎯 Project Objectives</h2>
 
-The project demonstrates core Salesforce Administration concepts including object customization, security implementation, user management, AI integration, and Lightning Experience customization.
+<ul>
 
----
+<li>Configure Salesforce Developer Edition</li>
 
-## Project Objectives
+<li>Customize the Standard Lead Object</li>
 
-* Configure Salesforce Developer Edition for Lead Management.
-* Customize the Standard Lead Object.
-* Create custom Profiles, Users, and Roles.
-* Implement Role-Based Security.
-* Configure Prompt Builder for AI-powered Lead Summary generation.
-* Customize Lightning Record Pages.
-* Understand Salesforce Administration best practices.
+<li>Create Profiles, Users and Roles</li>
 
----
+<li>Implement Role-Based Security</li>
 
-## Features Implemented
+<li>Configure Salesforce Prompt Builder</li>
 
-<div style="display: flex; flex-wrap: wrap; gap: 16px; margin: 20px 0; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif;">
-  <!-- Column 1 -->
-  <div style="flex: 1; min-width: 250px; background: #F8FAFC; border: 1px solid #E2E8F0; padding: 20px; border-radius: 6px;">
-    <h3 style="color: #0176D3; margin-top: 0; font-size: 1.1rem; border-bottom: 2px solid #E2E8F0; padding-bottom: 8px;">Lead Management</h3>
-    <ul style="padding-left: 20px; color: #4A5568; font-size: 0.9rem; line-height: 1.6;">
-      <li>Customized the Standard Lead Object.</li>
-      <li>Configured custom Lead fields.</li>
-      <li>Managed Lead records.</li>
-      <li>Customized Lead Page Layout.</li>
-    </ul>
-  </div>
-  <!-- Column 2 -->
-  <div style="flex: 1; min-width: 250px; background: #F8FAFC; border: 1px solid #E2E8F0; padding: 20px; border-radius: 6px;">
-    <h3 style="color: #0176D3; margin-top: 0; font-size: 1.1rem; border-bottom: 2px solid #E2E8F0; padding-bottom: 8px;">User & Security Management</h3>
-    <ul style="padding-left: 20px; color: #4A5568; font-size: 0.9rem; line-height: 1.6;">
-      <li>Created Lead Manager Profile.</li>
-      <li>Created Sales Agent Profile.</li>
-      <li>Configured Object-Level Permissions.</li>
-      <li>Configured Field-Level Security.</li>
-      <li>Created Lead Manager User.</li>
-      <li>Created Sales Agent User.</li>
-      <li>Assigned Profiles and Roles.</li>
-      <li>Configured Role Hierarchy.</li>
-      <li>Assigned Permission Sets.</li>
-    </ul>
-  </div>
-  <!-- Column 3 -->
-  <div style="flex: 1; min-width: 250px; background: #F8FAFC; border: 1px solid #E2E8F0; padding: 20px; border-radius: 6px;">
-    <h3 style="color: #0176D3; margin-top: 0; font-size: 1.1rem; border-bottom: 2px solid #E2E8F0; padding-bottom: 8px;">AI & Automation</h3>
-    <ul style="padding-left: 20px; color: #4A5568; font-size: 0.9rem; line-height: 1.6;">
-      <li>Enabled Salesforce Einstein.</li>
-      <li>Created AI_Summary__c custom field.</li>
-      <li>Created a Field Generation Prompt Template.</li>
-      <li>Configured Prompt Builder resources.</li>
-      <li>Activated Prompt Template.</li>
-      <li>Integrated Template with Lightning App Builder.</li>
-      <li>Generated AI Lead summaries into fields.</li>
-    </ul>
-  </div>
+<li>Generate AI-powered Lead Summaries</li>
+
+<li>Customize Lightning Record Pages</li>
+
+</ul>
+
 </div>
 
----
+<div class="card">
 
-## Security Configuration
+<h2>🛠 Features Implemented</h2>
 
-The project implements Salesforce security using Profiles, Roles, Permission Sets, and Object-Level Security.
+<ul>
 
-### Profile Permissions
+<li>Lead Management</li>
 
-<table style="width: 100%; border-collapse: collapse; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif; margin-bottom: 20px;">
-  <thead>
-    <tr style="background-color: #0176D3; color: white;">
-      <th style="padding: 10px; text-align: left; font-size: 0.95rem;">Profile</th>
-      <th style="padding: 10px; text-align: left; font-size: 0.95rem;">Permissions Granted</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr style="border-bottom: 1px solid #E2E8F0;">
-      <td style="padding: 10px; font-weight: bold; color: #2D3748; font-size: 0.9rem;">Lead Manager Profile</td>
-      <td style="padding: 10px; color: #4A5568; font-size: 0.9rem;">Read, Create, Edit, Delete. Full access to Lead, Task, Event, and Contact.</td>
-    </tr>
-    <tr style="border-bottom: 1px solid #E2E8F0;">
-      <td style="padding: 10px; font-weight: bold; color: #2D3748; font-size: 0.9rem;">Sales Agent Profile</td>
-      <td style="padding: 10px; color: #4A5568; font-size: 0.9rem;">Read, Create, Edit. Restricted Delete Permission. Access to Task and Event.</td>
-    </tr>
-  </tbody>
+<li>Custom Profiles</li>
+
+<li>User Management</li>
+
+<li>Role Hierarchy</li>
+
+<li>Permission Sets</li>
+
+<li>Lead Object Customization</li>
+
+<li>Lightning App Builder</li>
+
+<li>Prompt Builder</li>
+
+<li>AI Summary Field</li>
+
+</ul>
+
+</div>
+
+<div class="card">
+
+<h2>🔒 Security Configuration</h2>
+
+<table>
+
+<tr>
+
+<th>Profile</th>
+
+<th>Permissions</th>
+
+</tr>
+
+<tr>
+
+<td>Lead Manager</td>
+
+<td>Create, Read, Edit, Delete</td>
+
+</tr>
+
+<tr>
+
+<td>Sales Agent</td>
+
+<td>Create, Read, Edit (Delete Restricted)</td>
+
+</tr>
+
 </table>
 
-### Role Hierarchy
-
-<div style="background: #F8FAFC; border: 1px solid #E2E8F0; border-radius: 6px; padding: 20px; font-family: monospace; font-size: 0.9rem; color: #2D3748; margin-bottom: 20px;">
-VP of Sales<br>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;│<br>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;└── Lead Manager<br>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;│<br>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;└── Sales Agent
 </div>
 
-This hierarchy controls record visibility and ensures secure data sharing within the organization.
+<div class="card">
 
----
+<h2>🤖 AI Integration</h2>
 
-## Einstein Generative AI Integration
+<ul>
 
-The project incorporates Salesforce Prompt Builder to improve Lead management through AI-assisted content generation.
+<li>Enabled Salesforce Einstein</li>
 
-Implemented features include:
-* AI Summary Custom Field
-* Prompt Builder Configuration
-* Field Generation Prompt Template
-* Lightning App Builder Integration
-* AI-generated Lead Summary
-* One-click generation and storage of Lead summaries within Salesforce
+<li>Created AI Summary Field</li>
 
----
+<li>Configured Prompt Builder</li>
 
-## Project Implementation
+<li>Integrated Prompt Template with Lightning App Builder</li>
 
-The repository includes screenshots demonstrating every major configuration step.
+<li>Generated AI-powered Lead Summaries</li>
 
-* **Salesforce Setup:** Home Page | App Launcher
-* **Profiles:** Profiles List | Lead Manager Profile | Sales Agent Profile
-* **Users:** Users List | Lead Manager User | Sales Agent User
-* **Roles:** Role Hierarchy | Lead Manager Role | Sales Agent Role
-* **Lead Configuration:** Object Manager | Lead Object | Fields & Relationships | Lead Page Layout | Lead Record
-* **AI Configuration:** Prompt Builder | AI Summary Field
-* **Security:** Permission Set Configuration
-* **Final Project:** Completed Salesforce Environment
+</ul>
 
----
-
-## Business Value
-
-This project demonstrates how Salesforce Administration can improve organizational efficiency by:
-* Securing customer data using Profiles and Roles.
-* Controlling user access through Permission Sets.
-* Organizing Lead information efficiently.
-* Automating Lead Summary generation using Salesforce AI.
-* Improving productivity through Lightning Experience customization.
-* Applying Salesforce Administration best practices.
-
----
-
-## Tools & Technologies Used
-
-<div style="display: flex; flex-wrap: wrap; gap: 6px; margin: 15px 0; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif;">
-  <span style="background: #EDF2F7; color: #2D3748; padding: 4px 10px; border-radius: 4px; font-size: 0.85rem; font-weight: 500;">Salesforce Developer Edition</span>
-  <span style="background: #EDF2F7; color: #2D3748; padding: 4px 10px; border-radius: 4px; font-size: 0.85rem; font-weight: 500;">Salesforce Lightning Experience</span>
-  <span style="background: #EDF2F7; color: #2D3748; padding: 4px 10px; border-radius: 4px; font-size: 0.85rem; font-weight: 500;">Salesforce Prompt Builder</span>
-  <span style="background: #EDF2F7; color: #2D3748; padding: 4px 10px; border-radius: 4px; font-size: 0.85rem; font-weight: 500;">Salesforce Einstein AI</span>
-  <span style="background: #EDF2F7; color: #2D3748; padding: 4px 10px; border-radius: 4px; font-size: 0.85rem; font-weight: 500;">Lightning App Builder</span>
-  <span style="background: #EDF2F7; color: #2D3748; padding: 4px 10px; border-radius: 4px; font-size: 0.85rem; font-weight: 500;">GitHub</span>
-  <span style="background: #EDF2F7; color: #2D3748; padding: 4px 10px; border-radius: 4px; font-size: 0.85rem; font-weight: 500;">Microsoft Word</span>
 </div>
 
----
+<div class="card">
 
-## 📂 Repository Structure
+<h2>📸 Project Screenshots</h2>
 
-```bash
-AI-Powered-Lead-Management-System
-│
-├── README.md
-├── Documentation.pdf
-├── Screenshots
-│     ├── Home Page
-│     ├── Profiles
-│     ├── Users
-│     ├── Roles
-│     ├── Lead Object
-│     ├── Prompt Builder
-│     ├── AI Summary
-│     └── Final Project
-│
-└── Demo Video Link
+<p>
+
+Upload your screenshots inside the <b>Screenshots</b> folder and replace this section with image previews if desired.
+
+</p>
+
+</div>
+
+<div class="card">
+
+<h2>🛠 Technologies Used</h2>
+
+<ul>
+
+<li>Salesforce Developer Edition</li>
+
+<li>Salesforce Lightning Experience</li>
+
+<li>Salesforce Prompt Builder</li>
+
+<li>Lightning App Builder</li>
+
+<li>GitHub</li>
+
+</ul>
+
+</div>
+
+<div class="card">
+
+<h2>📚 Learning Outcomes</h2>
+
+<ul>
+
+<li>Salesforce Administration</li>
+
+<li>Lead Management</li>
+
+<li>User Management</li>
+
+<li>Security Configuration</li>
+
+<li>Prompt Builder</li>
+
+<li>AI-powered CRM Automation</li>
+
+</ul>
+
+</div>
+
+<div class="card">
+
+<h2>👩‍💻 Author</h2>
+
+<p><strong>Ritika Upadhyay</strong></p>
+
+<p>
+
+Salesforce Certified Administrator with AI Agentforce Specialization
+
+</p>
+
+<p>
+
+This project was completed as part of the Salesforce Virtual Internship and demonstrates practical Salesforce Administration and AI Agentforce implementation skills.
+
+</p>
+
+</div>
+
+</section>
+
+<footer>
+
+© 2026 Ritika Upadhyay | Salesforce Virtual Internship Project
+
+</footer>
+
+</body>
+</html>
