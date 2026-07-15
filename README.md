@@ -1,8 +1,4 @@
-# AI-Powered Lead Generation System
-
----
-
-## Project Overview
+Project Overview
 
 The **AI-Powered Lead Generation System** is an enterprise-grade Lead Management solution built in a Salesforce Developer Edition environment[span_0](start_span)[span_0](end_span). This project focuses on streamlining inbound pipeline velocity by replacing manual, error-prone data collection with automated validation, role-based access controls, and cutting-edge generative AI capabilities[span_1](start_span)[span_1](end_span).
 
