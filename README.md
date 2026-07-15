@@ -93,5 +93,5 @@ AI-Powered-Lead-Management-System
 <h2>👩‍💻 Author</h2>
 <p>
   <strong>Ritika Upadhyay</strong><br>
-  Salesforce Certified Administrator with AI Agentforce Specialization – Virtual Internship Project Submission
+  Team leader 
 </p>
