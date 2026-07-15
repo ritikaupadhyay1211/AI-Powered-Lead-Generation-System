@@ -25,7 +25,62 @@ The objective was to architect a highly secure, automated, and AI-powered Lead M
 - [x] Integrate Prompt Builder for generative AI Lead Summary generation.
 - [x] Design user-centric Lightning Record Pages.
 - [x] Practice enterprise-level Salesforce Administration best practices.
+<blockquote>
+  <p><strong>💡 Security Note:</strong> This precise structure establishes top-down transparency, securing private records from peer-to-peer data exposure while facilitating rolled-up visibility for executives.</p>
+</blockquote>
 
+<h2>🤖 Einstein Generative AI Integration</h2>
+<p>By incorporating Salesforce Prompt Builder, this infrastructure eliminates administrative bottlenecks for sales teams:</p>
+<ul>
+  <li><strong>The Prompt Blueprint:</strong> Instructs Einstein to synthesize historical contact notes, company details, and engagement fields.</li>
+  <li><strong>UI Delivery:</strong> Integrated natively onto the Lightning Record page as a smart actionable utility.</li>
+  <li><strong>The Result:</strong> Sales agents get instant context at a glance without reading through hundreds of historical activity timelines.</li>
+</ul>
+
+<h2>📸 Project Implementation Proofs</h2>
+<p>All verification files can be found under the <code>/Screenshots</code> directory.</p>
+<ul>
+  <li><strong>Salesforce Core Environment:</strong> Home Page Setup | App Launcher Configuration</li>
+  <li><strong>Identity Management:</strong> Profiles List | Users Configuration Details</li>
+  <li><strong>Visibility Matrix:</strong> Active Role Hierarchy Map | Permission Set Allocations</li>
+  <li><strong>Schema Customization:</strong> Object Manager Properties | Lead Fields &amp; Layout Previews</li>
+  <li><strong>AI Engine:</strong> Prompt Builder Workbench Workspace | Active AI Summary Fields</li>
+</ul>
+
+<h2>📈 Executive Business Value</h2>
+<ul>
+  <li><strong>Robust Data Governance:</strong> Restricts access to sensitive prospect records using verified Profiles and Roles.</li>
+  <li><strong>AI-Driven Velocity:</strong> Reclaims agent prospecting hours by shifting manual lead synthesis to generative AI.</li>
+  <li><strong>Frictionless UI:</strong> Boosts daily active adoption through customized, highly-relevant Lightning interfaces.</li>
+</ul>
+
+<h2>🛠 Tools &amp; Technologies</h2>
+<ul>
+  <li><strong>Platform:</strong> Salesforce Developer Edition (Lightning Experience)</li>
+  <li><strong>Automation &amp; Intelligence:</strong> Salesforce Prompt Builder, Einstein AI, Lightning App Builder</li>
+  <li><strong>Documentation &amp; Storage:</strong> GitHub, Microsoft Word</li>
+</ul>
+
+<h2>📂 Repository Tree Structure</h2>
+<pre><code>
+AI-Powered-Lead-Management-System
+├── README.md                # Project Presentation
+├── Documentation.pdf        # Complete Technical Runbook
+├── Screenshots/             # Verification Images
+│   ├── Home_Page/
+│   ├── Profiles_&amp;_Users/
+│   ├── Roles/
+│   ├── Lead_Object_Config/
+│   ├── Prompt_Builder/
+│   └── Final_System_View/
+└── Demo_Video_Link.txt      # Walkthrough Links
+</code></pre>
+
+<h2>👩‍💻 Author</h2>
+<p>
+  <strong>Ritika Upadhyay</strong><br>
+  Salesforce Certified Administrator with AI Agentforce Specialization – Virtual Internship Project Submission
+</p>
 ---
 
 ## 🛠 Implemented Features
@@ -40,76 +95,3 @@ The objective was to architect a highly secure, automated, and AI-powered Lead M
 * Redesigned clutter-free Lead Page Layouts to accelerate agent workflows.
 * Tailored customized Lightning Experience records for optimal viewing.
 
-### 🤖 Generative AI Infrastructure
-* Enabled baseline Salesforce Einstein capabilities.
-* Programmed an active Field Generation Prompt Template inside Salesforce Prompt Builder.
-* Orchestrated a 1-click execution engine via Lightning App Builder to generate, update, and lock AI summaries natively.
-
----
-
-## 🔒 Security Configuration Matrix
-
-### Profile Access Clearances
-
-| Profile | Object Permissions (Lead, Task, Event, Contact) | Operational Intent |
-| :--- | :--- | :--- |
-| Lead Manager | Read | Create | Edit | Delete | Oversees pipeline, monitors audits, handles exceptions. |
-| Sales Agent | Read | Create | Edit (No Delete) | Daily prospecting, lead conversion, event scheduling. |
-
-### Role Hierarchy Architecture
-```text
-  [VP of Sales]
-        │
-        └── [Lead Manager]
-                 │
-                 └── [Sales Agent]
-<!-- TOOLS & TECHNOLOGIES -->
-<div style="margin-top: 30px; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif;">
-  <h2 style="color: #0176D3; border-bottom: 2px solid #E2E8F0; padding-bottom: 8px; font-size: 1.5rem;">🛠 Tools & Technologies</h2>
-  <div style="display: flex; flex-direction: column; gap: 12px; margin-bottom: 30px;">
-    <div>
-      <span style="font-weight: bold; color: #2D3748;">Platform:</span> 
-      <span style="background: #F1F5F9; color: #334155; padding: 3px 8px; border-radius: 4px; font-size: 0.9rem;">Salesforce Developer Edition (Lightning Experience)</span>
-    </div>
-    <div>
-      <span style="font-weight: bold; color: #2D3748;">Automation & Intelligence:</span> 
-      <span style="background: #F1F5F9; color: #334155; padding: 3px 8px; border-radius: 4px; font-size: 0.9rem;">Salesforce Prompt Builder</span>
-      <span style="background: #F1F5F9; color: #334155; padding: 3px 8px; border-radius: 4px; font-size: 0.9rem;">Einstein AI</span>
-      <span style="background: #F1F5F9; color: #334155; padding: 3px 8px; border-radius: 4px; font-size: 0.9rem;">Lightning App Builder</span>
-    </div>
-    <div>
-      <span style="font-weight: bold; color: #2D3748;">Documentation & Storage:</span> 
-      <span style="background: #F1F5F9; color: #334155; padding: 3px 8px; border-radius: 4px; font-size: 0.9rem;">GitHub</span>
-      <span style="background: #F1F5F9; color: #334155; padding: 3px 8px; border-radius: 4px; font-size: 0.9rem;">Microsoft Word</span>
-    </div>
-  </div>
-</div>
-
-<!-- REPOSITORY TREE STRUCTURE -->
-<div style="margin-top: 30px; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif;">
-  <h2 style="color: #0176D3; border-bottom: 2px solid #E2E8F0; padding-bottom: 8px; font-size: 1.5rem;">📂 Repository Tree Structure</h2>
-  <pre style="background-color: #0F172A; color: #38BDF8; padding: 20px; border-radius: 8px; font-family: 'Fira Code', Consolas, Monaco, 'Andale Mono', 'Ubuntu Mono', monospace; font-size: 0.9rem; overflow-x: auto; margin-bottom: 30px; line-height: 1.5;">
-AI-Powered-Lead-Management-System
-├── README.md                # Project Presentation
-├── Documentation.pdf        # Complete Technical Runbook
-├── Screenshots/             # Verification Images
-│   ├── Home_Page/
-│   ├── Profiles_&_Users/
-│   ├── Roles/
-│   ├── Lead_Object_Config/
-│   ├── Prompt_Builder/
-│   └── Final_System_View/
-└── Demo_Video_Link.txt      # Walkthrough Links
-  </pre>
-</div>
-
-<!-- AUTHOR INFO -->
-<div style="background-color: #F8FAFC; border: 1px solid #E2E8F0; padding: 20px; border-radius: 8px; text-align: center; margin-top: 40px; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif;">
-  <p style="margin: 0; font-size: 0.95rem; color: #4A5568;">
-    👩‍💻 <strong>Author:</strong> 
-    <span style="color: #0176D3; font-weight: bold;">Ritika Upadhyay</span>
-  </p>
-  <p style="margin: 5px 0 0 0; font-size: 0.85rem; color: #718096; font-style: italic;">
-    Salesforce Certified Administrator with AI Agentforce Specialization – Virtual Internship Project Submission
-  </p>
-</div>
