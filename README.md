@@ -76,11 +76,7 @@ AI-Powered-Lead-Management-System
 └── Demo_Video_Link.txt      # Walkthrough Links
 </code></pre>
 
-<h2>👩‍💻 Author</h2>
-<p>
-  <strong>Ritika Upadhyay</strong><br>
-  Salesforce Certified Administrator with AI Agentforce Specialization – Virtual Internship Project Submission
-</p>
+
 ---
 
 ## 🛠 Implemented Features
@@ -94,4 +90,8 @@ AI-Powered-Lead-Management-System
 * Expanded the standard schema with custom tracking fields (AI_Summary__c).
 * Redesigned clutter-free Lead Page Layouts to accelerate agent workflows.
 * Tailored customized Lightning Experience records for optimal viewing.
-
+<h2>👩‍💻 Author</h2>
+<p>
+  <strong>Ritika Upadhyay</strong><br>
+  Salesforce Certified Administrator with AI Agentforce Specialization – Virtual Internship Project Submission
+</p>
